@@ -33,7 +33,7 @@ theme: jekyll-theme-hacker
 plugins:
   - jekyll-feed
 
-repository: sanie4eg/sanie4eg.github.io
+repository: sanie4eg.github.io/SRE
 author: sanie4eg
 
 # Exclude from processing.
