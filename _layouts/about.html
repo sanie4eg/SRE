@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+
+{% seo %}
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>{{ site.title | default: site.github.repository_name }}</h1>
+        <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+
+        <section id="downloads">
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        {{ content }}
+      </section>
+    </div>
+    
+    <div class="container">
+    <section id="footer">
+    <footer>
+      <p>Contact information: <a href="mailto:oleksandr.sechko@gmail.com">
+      mail</a></p>
+          <!-- Add icon library -->
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+          <!-- Add font awesome icons -->
+          <a href="https://www.facebook.com/oleksandr.sechko" class="fa fa-facebook"></a> 
+          <a href="https://twitter.com/sanie4eg" class="fa fa-twitter"></a>
+          <a href="https://instagram.com/sanie4eg" class="fa fa-instagram"></a>      
+    </footer>
+    </section>
+    </div> 
+  
+  </body>
+</html>
