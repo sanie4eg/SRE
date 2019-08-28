@@ -22,8 +22,8 @@ title: SRE Knowledge base
 email: oleksandr.sechko@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   SRE Knowledge base
-baseurl: "/SRE" # the subpath of your site, e.g. /blog
-#url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: /SRE # the subpath of your site, e.g. /blog
+#url: "https://sanie4eg.github.io/SRE" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: sanie4eg
 github_username:  sanie4eg
 permalink: /blog/:year/:month/:day/:title
